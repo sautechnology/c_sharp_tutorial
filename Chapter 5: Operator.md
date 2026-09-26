@@ -252,8 +252,20 @@ C# มีชุดตัวดำเนินการที่สามาร�
         }
     }
 
-<kbd><img width="312" height="146" alt="Screenshot 2026-09-27 003834" src="https://github.com/user-attachments/assets/01ffa65a-4348-480e-ba7a-65bb288e6899" /></kbd><br /><br />
+<kbd><img width="312" height="146" alt="Screenshot 2026-09-27 003834" src="https://github.com/user-attachments/assets/01ffa65a-4348-480e-ba7a-65bb288e6899" /></kbd><br />
 
+## C# Operators Precedence
+ลำดับความสำคัญของเครื่องหมาย
 
+| Precedence Level	| Operators | 
+| --- | --- | 
+| 1 | ( )  | 
+| 2 | ! | 
+| 3 | * / % | 
+| 4 | + - | 
+| 5 | == != > < >= <= | 
+| 6 | && | 
+| 7 | \|\| | 
+| 8 | __ ?__ :__ | 
 
-    
+<br /><br />    
