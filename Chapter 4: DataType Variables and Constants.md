@@ -48,6 +48,9 @@
         }
     }
 
+<kbd><img width="376" height="170" alt="Screenshot 2026-09-26 214714" src="https://github.com/user-attachments/assets/684f5b73-2b9e-43bd-9f08-97506700f193" /></kbd><br />
+
+
 **🌟Floating-Point Data Types🌟**
 
 ชนิดข้อมูลเลขจำนวนจริง (ทศนิยม)
@@ -80,6 +83,10 @@
     }
 
 
+<kbd><img width="352" height="153" alt="Screenshot 2026-09-26 225543" src="https://github.com/user-attachments/assets/aaddfda0-d4fd-4c35-9d86-094d1461b88c" /></kbd><br />
+
+
+
 **🌟Character and Boolean Data Types🌟**
 
 Data Type	| Size	| Description | 
@@ -106,6 +113,8 @@ Data Type	| Size	| Description |
         }
     }
 
+<kbd><img width="327" height="135" alt="Screenshot 2026-09-26 221126" src="https://github.com/user-attachments/assets/d822a2ae-439a-481d-b719-cff8ec6f5181" /></kbd><br />
+
 **🌟String Types🌟**
 ชนิดข้อมูลข้อความ (ตัวอักษรตั้งแต่ 0 ตัวขึ้นไป เขียนอยู่ภายใต้ "???")
 
@@ -127,6 +136,8 @@ Data Type	| Size	| Description |
             }
         }
     }
+
+<kbd><img width="344" height="111" alt="Screenshot 2026-09-26 223613" src="https://github.com/user-attachments/assets/7b84df37-818b-40dd-b456-1860b4083e7d" /></kbd><br />
 
 
 **🌟Enumerations (enum) Types🌟**
@@ -161,6 +172,8 @@ Data Type	| Size	| Description |
         }
     }
 
+<kbd><img width="343" height="134" alt="Screenshot 2026-09-26 221549" src="https://github.com/user-attachments/assets/922a12bd-bf24-44e1-bb4a-3d19afa3f25f" /></kbd><br />
+
 **🌟Struct Types🌟**
 
 ใช้สำหรับสร้างกลุ่มข้อมูลที่เกี่ยวข้องกัน เก็บข้อมูลเป็นชุด
@@ -191,6 +204,8 @@ Data Type	| Size	| Description |
             }
         }
     }
+
+<kbd><img width="394" height="108" alt="Screenshot 2026-09-26 223133" src="https://github.com/user-attachments/assets/ca18e87a-8e6c-4f43-a65e-1ea6221feb3c" /></kbd><br />
 
 **🌟Array Types🌟**
 
@@ -233,3 +248,5 @@ Data Type	| Size	| Description |
             }
         }
     }
+
+<kbd><img width="350" height="377" alt="Screenshot 2026-09-26 224604" src="https://github.com/user-attachments/assets/451f017c-351b-4882-a799-0a0a1dcaab89" /></kbd><br /><br />
