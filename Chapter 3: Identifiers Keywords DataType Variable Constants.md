@@ -1,5 +1,4 @@
-# Identifiers Keywords DataType Variable Constants
-
+# Identifiers Keywords
 ## Identifiers
 
 **Identifiers** คือ ชื่อใดที่นักพัฒนาใช้ตั้งให้กับสิ่งต่าง ๆ ในโปรแกรม ได้แก่
@@ -9,7 +8,7 @@
 - ชื่อ class 
 - ชื่อ object 
 - ชื่อ method 
-- ชื่อ data/property/field 
+- ชื่อ data/field 
 - ชื่อ interface
 
 **กฎการตั้งชื่อ Identifiers ใน C#**
@@ -34,7 +33,7 @@
 ทั้งนี้ หากต้องการนำไปตั้งชื่อจริงๆ ก็ทำได้ โดยการใส่เครื่องหมาย @ ไว้ข้างหน้า (แต่ไม่แนะนำให้ทำ)
 
     using System;
-
+    
     namespace SAUConsoleApp1
     {
         internal class Program
@@ -44,9 +43,29 @@
                 int @class = 20;
                 int @bool = 50;
                 int @if = @class + @bool;
-                Console.WriteLine(@if);
+                Console.WriteLine("+++++++++++++++++++++++++++");
+                Console.WriteLine("@class is " + @class);
+                Console.WriteLine("@bool is " + @bool);
+                Console.WriteLine($"{@class} + {@bool} = {@if}");
+                Console.WriteLine("+++++++++++++++++++++++++++"); ;
             }
         }
     }
 
-## Data Types
+<kbd><img width="320" alt="Screenshot 2026-09-26 212326" src="https://github.com/user-attachments/assets/99388db7-1e67-4c0f-9e15-6b59a05e7c8a" /></kbd><br />
+
+
+## Naming Conventions
+
+| Code Element | Casing Style| Prefix / Suffix | Example |
+| --- | --- | --- | --- |
+Classes & Structs | PascalCase| None| CustomerAccount |
+| Interfaces | PascalCase | I prefix | IUserRepository |
+| Methods | PascalCase | None | CalculateTotal() |
+| Properties | PascalCase | None | IsActive |
+| Public Fields | PascalCase | None | TotalCount |
+| Constants (const) | PascalCase | None | MaxItemsPerPage |
+| Private Fields | camelCase | _ prefix | _databaseConnection |
+| Local Variables | camelCase | None | invoiceAmount |
+| Method Parameters | camelCase | None | userId |
+
