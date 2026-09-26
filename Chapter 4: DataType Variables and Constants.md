@@ -6,7 +6,7 @@
 
 ## Variables
 
-**Variables** (ตัวแปร) คือ สิ่งที่ใช้เก็บข้อมูลที่เกิดขึ้นในโปรแกรม เป็น identifiers ชื่อที่พัฒนาตั้งขึ้นเอง และการจะนำตัวแปรไปเก็บข้อมูลใดๆ ได้ต้องทำการประกาศตัวแปร (variable declaration) ก่อนโดยมีรูปแบบคือ
+**Variables** (ตัวแปร) คือ สิ่งที่ใช้เก็บข้อมูลที่เกิดขึ้นในโปรแกรม เป็น identifiers ชื่อที่พัฒนาตั้งขึ้นเอง และการจะนำตัวแปรไปเก็บข้อมูลใดๆ ได้ต้องทำการประกาศตัวแปรก่อน (variable declaration) มีรูปแบบ ดังนี้
 
     data_type  variable_name ;
     data_type  variable_name = init_value ;
@@ -250,3 +250,9 @@ Data Type	| Size	| Description |
     }
 
 <kbd><img width="350" height="377" alt="Screenshot 2026-09-26 224604" src="https://github.com/user-attachments/assets/451f017c-351b-4882-a799-0a0a1dcaab89" /></kbd><br /><br />
+
+## Contants
+
+คือค่าที่ถูกกำหนดไว้แล้วและ ไม่สามารถเปลี่ยนแปลงได้ ตลอดการทำงานของโปรแกรม ใช้คำสั่ง const ในการประกาศ เหมาะสำหรับค่าที่แน่นอน มีรูปแบบ ดังนี้
+
+    const data_type constant_name = value; 
