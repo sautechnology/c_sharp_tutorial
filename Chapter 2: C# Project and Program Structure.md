@@ -1,4 +1,4 @@
-# Create C# First Project
+# Create C# Project
 
 1. เลือก Create a new project
 
@@ -50,7 +50,7 @@
 
    <br /><kbd><img width="673" height="324" alt="Screenshot 2026-09-26 175702" src="https://github.com/user-attachments/assets/d685dfdb-2ba0-4403-a2bd-1273ab01444e" /></kbd><br /><br />
 
-## Basic of C# Program Structure 
+## C# Program Structure 
 
 ```
 using System;   // 1. Namespace declaration
