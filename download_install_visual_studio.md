@@ -66,57 +66,6 @@
 
    <kbd><img width="400"  alt="Screenshot 2026-09-26 173622" src="https://github.com/user-attachments/assets/31091c3d-99b7-4c9a-84bd-d40900a20923" /></kbd><br /><br />
 
-## Create C# first project
-
-1. เลือก Create a new project
-
-   <kbd><img width="400" alt="Screenshot 2026-09-26 173758" src="https://github.com/user-attachments/assets/f9819d57-0d24-4fce-93ef-7aabb49ba998" /></kbd><br /><br />
-
-2. เลือก language: C# -> platform: Window -> project type: Console ดังนี้
-
-   <kbd><img width="400"  alt="Screenshot 2026-09-26 175226" src="https://github.com/user-attachments/assets/2cef3a48-6370-4bd4-bc4b-2ef14db9c761" /></kbd><br /><br />
-
-3. ตั้งชื่อโปรเจ็กต์ (Project name) และเลือกตำแหน่งที่จะเก็บโปรเจ็กต์ (Location)
-
-    - แนะนำตั้งชื่อโปรเจ็กต์แบบ Pascal Case เช่น MyProject, LoanProject, ApartmentProject เป็นต้น ณ โปรเจ็กต์นี้ตั้งชื่อเป็น SAUConsoleApp1
-
-    - ส่วนของ Solution name เบื้องต้นแนะนำเป็นชื่อเดียวกับชื่อโปรเจ็กต์ ทั้งนี้ Solution name เปรียบเสมือนเป็นระบบใหญ่ที่ครอบคลุมได้หลายโปรเจ็กต์
-
-   <kbd><img width="400"  alt="Screenshot 2026-09-26 175406" src="https://github.com/user-attachments/assets/49661187-bc50-492f-8760-109bba020ad2" /></kbd><br /><br />
-
-   <kbd><img width="600"  alt="Screenshot 2026-09-26 175447" src="https://github.com/user-attachments/assets/8123b06e-d69f-4066-93c8-59c142b42962" /></kbd><br /><br />
-
-4. แก้ไขโค้ด ดังนี้
-
-   ```
-   using System;
-   
-   namespace SAUConsoleApp1
-   {
-       internal class Program
-       {
-           static void Main(string[] args)
-           {
-               Console.WriteLine("+++++++++++++++++++++++++");
-               Console.WriteLine("Hello....");
-               Console.Write("Hi....");
-               Console.WriteLine("Hey....");
-               Console.WriteLine("Hum....");
-               Console.WriteLine("+++++++++++++++++++++++++");
-           }
-       }
-   }
-   ```
-
-5. Run โปรเจ็กต์ โดยคลิกที่ปุ่ม Start หรือ เลือกเมนู Debug->Start Debugging หรือ **กดปุ่ม F5 ซึ่งแนะนำ** 
-
-   <br /><kbd><img width="450"  alt="Screenshot 2026-09-26 185239" src="https://github.com/user-attachments/assets/9d8dd017-d68f-4afc-98c1-c906935f1986" /></kbd><br /><br />
-
-   <kbd><img width="450"  alt="Screenshot 2026-09-26 185314" src="https://github.com/user-attachments/assets/a411ac16-21a8-40dd-918c-2928ff8bc585" /></kbd><br /><br />
-
-6. หน้าจอการ Run โปรเจ็กต์ประเภท Console แสดง ดังนี้
-
-   <br /><kbd><img width="673" height="324" alt="Screenshot 2026-09-26 175702" src="https://github.com/user-attachments/assets/d685dfdb-2ba0-4403-a2bd-1273ab01444e" /></kbd><br /><br />
 
 
 
