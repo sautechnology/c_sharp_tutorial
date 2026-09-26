@@ -57,7 +57,7 @@
 
 ## Naming Conventions
 
-ธรรมเนียมปฏิบัติในการตั้งชื่อใน C#
+ธรรมเนียมปฏิบัติการตั้งชื่อใน C#
 
 | Code Element | Casing Style| Prefix / Suffix | Example |
 | --- | --- | --- | --- |
