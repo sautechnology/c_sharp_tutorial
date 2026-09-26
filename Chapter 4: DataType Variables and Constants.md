@@ -176,7 +176,7 @@ Data Type	| Size	| Description |
 
 **🌟Struct Types🌟**
 
-ใช้สำหรับสร้างกลุ่มข้อมูลที่เกี่ยวข้องกัน เก็บข้อมูลเป็นชุด
+เป็น Value Type ในภาษา C# ใช้สำหรับสร้างกลุ่มข้อมูลที่เกี่ยวข้องกัน เก็บข้อมูลเป็นชุด
 
     using System;
 
@@ -209,7 +209,7 @@ Data Type	| Size	| Description |
 
 **🌟Array Types🌟**
 
- คือชนิดข้อมูลที่ใช้เก็บ หลายค่า ที่มีชนิดเดียวกันไว้ในตัวแปรเดียว แต่ละค่าจะถูกเก็บใน ตำแหน่ง (index) โดยเริ่มจาก 0 เหมาะสำหรับเก็บข้อมูลที่เป็นชุด
+ คือ ชนิดข้อมูลที่ใช้เก็บ หลายค่า ที่มีชนิดเดียวกันไว้ในตัวแปรเดียว แต่ละค่าจะถูกเก็บใน ตำแหน่ง (index) โดยเริ่มจาก 0 เหมาะสำหรับเก็บข้อมูลที่เป็นชุด
 
     using System;
 
@@ -249,10 +249,39 @@ Data Type	| Size	| Description |
         }
     }
 
-<kbd><img width="350" height="377" alt="Screenshot 2026-09-26 224604" src="https://github.com/user-attachments/assets/451f017c-351b-4882-a799-0a0a1dcaab89" /></kbd><br /><br />
+<kbd><img width="350" height="377" alt="Screenshot 2026-09-26 224604" src="https://github.com/user-attachments/assets/451f017c-351b-4882-a799-0a0a1dcaab89" /></kbd><br />
 
-## Contants
+## Constants
 
-คือค่าที่ถูกกำหนดไว้แล้วและ ไม่สามารถเปลี่ยนแปลงได้ ตลอดการทำงานของโปรแกรม ใช้คำสั่ง const ในการประกาศ เหมาะสำหรับค่าที่แน่นอน มีรูปแบบ ดังนี้
+คือ ค่าที่ถูกกำหนดไว้แล้วและ ไม่สามารถเปลี่ยนแปลงได้ ตลอดการทำงานของโปรแกรม ใช้คำสั่ง const ในการประกาศ เหมาะสำหรับค่าที่แน่นอน มีรูปแบบ ดังนี้
 
     const data_type constant_name = value; 
+
+**ข้อควรระวัง**
+- สำหรับ Constants ต้องมีการกำหนดค่าตั้งแต่ตอนประกาศ ไม่เช่นนั้นจะ error
+- ค่าของ Constants ห้ามเปลี่ยน ไม่เช่นนั้นจะ error
+
+ตัวอย่าง
+
+    using System;
+
+    namespace SAUConsoleApp1
+    {
+        internal class Program
+        {
+            static void Main(string[] args)
+            {
+                const int DataA = 100;
+                //const int DataB;      error
+                //DataA = 200;          error
+
+                Console.WriteLine("+++++++++++++++++++++++++++");
+                Console.WriteLine(DataA);
+                Console.WriteLine("+++++++++++++++++++++++++++");
+            }
+        }
+    }
+
+
+<kbd><img width="305" height="111" alt="Screenshot 2026-09-26 230738" src="https://github.com/user-attachments/assets/bd33daaa-f4b6-4c9a-814b-21e3d9a05220" /></kbd><br /><br />
+    
