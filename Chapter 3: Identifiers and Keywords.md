@@ -1,4 +1,4 @@
-# Identifiers Keywords
+# Identifiers and Keywords
 ## Identifiers
 
 **Identifiers** คือ ชื่อใดที่นักพัฒนาใช้ตั้งให้กับสิ่งต่าง ๆ ในโปรแกรม ได้แก่
