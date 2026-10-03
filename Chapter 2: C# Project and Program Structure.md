@@ -172,5 +172,3 @@ namespace SAUConsoleApp1    // 2. Namespace ของโปรแกรม
         ```
         <kbd><img width="300" alt="Screenshot 2026-09-26 195039" src="https://github.com/user-attachments/assets/f680245a-c4c7-474e-8839-ebdfca828574" /></kbd><br /><br />
         สังเกตุว่าส่วนที่เป็น Comment จะไม่มีผลใดๆ ต่อการทำงาน
-
-
