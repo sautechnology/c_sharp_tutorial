@@ -50,6 +50,36 @@
 
    <br /><kbd><img width="673" height="324" alt="Screenshot 2026-09-26 175702" src="https://github.com/user-attachments/assets/d685dfdb-2ba0-4403-a2bd-1273ab01444e" /></kbd><br /><br />
 
+## C# Project Structure (Console App)
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd><img width="306" height="266" alt="image" src="https://github.com/user-attachments/assets/e8a0f041-ea67-4f00-ae19-be81e0c284c4" /></kbd><br /><br />
+
+1. Solution 'SAUConsoleApp1'
+   
+   เป็น "ตัวครอบ" โปรเจ็กต์ทั้งหมด Solution 1 อันสามารถมีหลายโปรเจ็กต์ได้ เช่น Console App, Class Library, Windows Forms, ASP.NET, ในภาพมีอยู่ 1 โปรเจ็กต์ คือ SAUConsoleApp1
+
+3. SAUConsoleApp1 (Project)
+
+   คือโปรเจ็กต์จริงที่เก็บ Source Code และไฟล์ทั้งหมด เมื่อ Build โปรแกรม Visual Studio จะสร้างไฟล์ .exe จากโปรเจ็กต์นี้
+
+5. Properties
+
+   เก็บการตั้งค่าของโปรเจ็กต์ เช่น Assembly Name, Version, Target, Framework, Output Type
+
+5. App.config
+
+   ไฟล์สำหรับเก็บค่าการตั้งค่าของโปรแกรม
+
+4. References
+
+   เป็นรายการ Library หรือ DLL ที่โปรเจ็กต์ใช้งาน
+
+6. Program.cs
+
+   ไฟล์ต่างๆ ของโปรแกรมจะประกอบด้วยไฟล์นามสกุล .cs ต่างๆ
+
+   สำหรับไฟล์หลักของโปรแกรม Console ที่เป็นไฟล์สำหรับ Run โปรเจ็กต์ ภายในจะมีเมธอด Main()
+
 ## C# Program Structure 
 
 ```
